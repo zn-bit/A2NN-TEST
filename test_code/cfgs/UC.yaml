@@ -1,0 +1,23 @@
+TRAIN:
+  WORKERS: 8
+  BATCH_SIZE: 64
+  DATASETS: UC
+  DATASETS_NAME: 'data_process/UC/UC_names.txt'
+  TRAIN_RATIO: 0.8
+  FREEZE_CONV: False
+  SEED: 1 # gai
+TEST:
+  TEST_RATIO: 0.2
+  BATCH_SIZE: 64
+MODEL:
+  DEVICE_IDS: [0] # gai
+  CNN: vgg11_conv
+  CNNDICT: './CNN.pth'
+  A2NN: vgg11_adder
+  A2NNDICT: './A2NN.pth'
+  QA2NN: vgg11_adder_Q
+  QA2NNDICT: './QA2NN.pth'
+  NUM_BITS: 8 # gai
+AUG:
+  RESIZE_SIZE: 256
+  CROP_SIZE: 224
