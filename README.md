@@ -25,7 +25,7 @@ First of all, you need to build a cuda computing environment for the adder kerne
 
    We provide configured virtual environments. You only need to download and unzip it, and you can run the test code directly in this environment：
    
-      链接：https://pan.baidu.com/s/1OFKVO-Q5sfJlCNCMygeUDA?pwd=co8a 提取码：co8a 
+      Link：https://pan.baidu.com/s/1OFKVO-Q5sfJlCNCMygeUDA?pwd=co8a Access code：co8a 
 
    · The second method:    
   
@@ -61,7 +61,7 @@ First of all, you need to build a cuda computing environment for the adder kerne
     
 Secondly, you can find the CNN, A2NN, and QA2NN versions of the vgg11 pre-trained model from the links we provide, and put these pre-trained models into the test_code folder.
      
-     链接：https://pan.baidu.com/s/1kPuayjwvg---K6XGuJpRjw?pwd=7yqn 提取码：7yqn 
+     Link：https://pan.baidu.com/s/1kPuayjwvg---K6XGuJpRjw?pwd=7yqn Access code：7yqn 
 
 Thirdly, download UC Merced Land Use Dataset and modify the image file path in the /data_process/UC_test_0.2.txt file according to the storage location of the UC dataset.
   
@@ -86,11 +86,11 @@ The result of deploying QA2NN quantized in 4bit on FPGA:
 
   GPU:
 
-    链接：https://pan.baidu.com/s/1R4GZbmIDWgJ6SvXbvSJDJA?pwd=ss6j 提取码：ss6j 
+    Link：https://pan.baidu.com/s/1R4GZbmIDWgJ6SvXbvSJDJA?pwd=ss6j Access code：ss6j 
     
   FPGA:
     
-    链接：https://pan.baidu.com/s/1uZvTiVrFtP84uFwSx8Afrw?pwd=nb4d 提取码：nb4d 
+    Link：https://pan.baidu.com/s/1uZvTiVrFtP84uFwSx8Afrw?pwd=nb4d Access code：nb4d 
  *******************************************************************************************
  
  Notes: The file size of QA2NN does not reflect the real resource overhead when deploying the inference phase of the QA2NN. We additionally provide the parameter files for on-chip ROM initialization when deploying QA2NN on FPGA.
